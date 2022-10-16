@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 48px;
+}
+
+.header-principal {
+  align-self: center;
+  font-size: 60px;
+}
+
+/* estilo usando pseudo-classe */
+.header-principal span:first-child {
+  color: gray;
+}
+
+.header-second {
+  align-self: center;
+  color: gray;
+  font-size: 16px;
+}
+
+.header-third {
+  align-self: center;
+  color: rgb(6, 167, 6);
+  font-size: 16px;
+  font-weight: bold;
+}
