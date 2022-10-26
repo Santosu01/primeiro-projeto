@@ -1,0 +1,105 @@
+header {
+  height: 80px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 32px;
+}
+
+.box-header {
+  align-self: center;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
+}
+
+.box-header__content-logo {
+  width: 100%;
+  max-width: 132px;
+}
+
+.box-header__content-logo a svg {
+  width: 132px;
+  height: 41.89px;
+  fill: #fff;
+  cursor: pointer;
+}
+
+.box-header__nav-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-header__nav-box nav {
+  display: flex;
+  justify-content: center;
+}
+
+.box-header__nav-box nav ul {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 17px;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+}
+
+.box-header__nav-box nav span {
+  color: #fff;
+  padding: 0px 17px;
+  font-size: 20px;
+}
+
+.box-header__nav-box nav ul li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.box-header__nav-box nav div button {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.box-header__nav-box nav div button:hover,
+.box-header__nav-box nav ul li:hover {
+  color: #1ed760;
+}
+
+.box-header__menu-icon-box {
+  display: none;
+}
+
+.box-header__menu-icon-box div {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  cursor: pointer;
+}
+
+.box-header__menu-icon-box div span {
+  background-color: #fff;
+  width: 25px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 992px) {
+  .box-header__nav-box {
+    display: none;
+  }
+
+  .box-header__menu-icon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
